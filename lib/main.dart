@@ -1,3 +1,4 @@
+import 'package:flores_flutter_app/home_page.dart';
 import 'package:flores_flutter_app/login_page.dart';
 import 'package:flutter/material.dart';
 //import 'package:flutter/rendering.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(Object context){
     return MaterialApp(
       theme: ThemeData(fontFamily: 'Urbanist'),
-      home: LoginPage()
+      home: HomePage()
     );
 
   }
